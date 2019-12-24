@@ -1,0 +1,10 @@
+.page-item.active a{
+    background-color: #001689;
+    color: #ffffff;
+}
+.page-item.active a:hover {
+	font-family: "Arial";
+	color:	#ffffff;
+	background:	#001689;
+	opacity: 0.8;
+}

@@ -1,0 +1,26 @@
+.primary-active-color {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#001689;
+}
+.primary-active-color:hover {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#001689;
+	opacity: 0.8;
+}
+.tooltip.fade{
+    display: block;
+}

@@ -1,0 +1,56 @@
+<link rel="stylesheet" type="text/css" href="css/forms.css">
+<section id="forms" class="clearfix">
+    <h2 class="style-h2">Forms</h2>
+    <form class="snippet">
+        <fieldset>
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input type="text" placeholder="Placeholder" class="g-wide--full form-control">
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input type="text" value="Disabled" disabled="" class="g-wide--full form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 column"><label>Email input</label><input type="email"></div>
+                <div class="col-sm-6 column"><label>Password input</label><input type="password" value="password"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 column"><label>Textarea</label><textarea cols="30" rows="5">Textarea text</textarea>
+                </div>
+                <div class="col-sm-6 column select-style">
+                    <label>Select field</label>
+                    <select>
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/></svg>														
+                </div>
+                <div class="col-sm-6 column"><label>File input</label><input type="file"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 column"><label><input type="radio" name="rad">Radio
+                    input</label><label><input type="checkbox">Checkbox input</label></div>
+                <div class="col-sm-6 column"><label>Number input</label><input type="number" value="5" min="0" max="10"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 column">
+                    <label>Date input</label>
+                    <input type="date">
+                </div>
+                <div class="col-sm-6 column"><label>Time input</label><input type="time"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 column success-input has-success">
+                    <label>Success input</label>
+                    <input type="text" placeholder="Placeholder" class="g-wide--full form-control">
+                </div>
+                <div class="col-sm-6 column error-input has-error">
+                    <label for="inputError">Error input</label>
+                    <input type="text" id="inputError" placeholder="Placeholder" class="g-wide--full form-control ">
+                    <span class="help-block">Something may have gone wrong</span>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</section>

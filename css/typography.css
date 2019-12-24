@@ -1,0 +1,69 @@
+.typography .commonFont {
+	font-family: Arial;
+    font-size: 14px;
+	color: #333;
+}
+
+.typography h1 {
+	font-family: Arial;
+	font-weight: bold;
+	color: #001689;
+	font-size: 30px;
+	line-height: 48px;
+}
+
+.typography h2 {
+	font-family: Arial;
+	font-weight: bold;
+	color: #001689;
+	font-size: 25px;
+	line-height: 48px;
+}
+
+.typography h3 {
+	font-family: Arial;
+	font-weight: bold;
+	color: #0099a8;
+	font-size: 21px;
+	line-height: 48px;
+}
+
+.typography h4 {
+	font-family: Arial;
+	font-style: italic;
+	color: #333;
+	font-size: 17px;
+	line-height: 48px;
+}
+
+.typography h5 {
+	font-family: Arial;
+	font-weight: normal;
+	color: #333;
+	font-size: 16px;
+	line-height: 48px;
+}
+
+.typography h6 {
+	font-family: Arial;
+	font-weight: normal;
+	color: #333;
+	font-size: 14px;
+	line-height: 48px;
+}
+.links a {
+	font-size: 1.8rem;
+	margin-right: 10px;
+}
+
+.normal-link {
+	color: #001689;
+}
+.focused-link {
+	color: #001689;
+	opacity: 0.8;
+}
+.visited-link {
+	color: #001689;
+	opacity: 0.5;
+}

@@ -1,0 +1,146 @@
+.buttons .primary-active-color {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#001689;
+}
+.buttons .primary-active-color:hover {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#001689;
+	opacity: 0.8;
+}
+.buttons .primary-hover-color {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#001689;
+	opacity: 0.8;
+}
+
+.buttons .primary-disabled-color {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#001689;
+	opacity: 0.5;
+}
+
+.buttons .secondary-active-color {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#0099a8;
+}
+.buttons .secondary-active-color:hover {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#0099a8;
+	opacity: 0.8;
+}
+.buttons .secondary-hover-color {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#0099a8;
+	opacity: 0.8;
+}
+
+.buttons .secondary-disabled-color {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#0099a8;
+	opacity: 0.5;
+}
+
+.buttons .outline-active-color {
+	border: 1px solid #001689;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#001689;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#fff;
+}
+.buttons .outline-active-color:hover {
+	border: 1px solid #001689;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#001689;
+	opacity: 0.8;
+}
+.buttons .outline-hover-color {
+	border: 1px solid #001689;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#001689;
+	opacity: 0.8;
+}
+
+.buttons .outline-disabled-color {
+	border: 1px solid #001689;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 1.4rem;
+	font-family: "Arial";
+	color:	#001689;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background:	#ffffff;
+	opacity: 0.5;
+}

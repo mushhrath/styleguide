@@ -1,0 +1,119 @@
+header {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.11);
+}
+.headerWrap {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+header h1 {
+	margin-top: 40px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #001689;
+    font-size: 25px;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+a:focus {
+	outline: none;
+}
+.main {
+	display: table;
+	padding-top: 20px;
+}
+#leftNav {
+	width: 20%;
+	display:table-cell;
+	vertical-align: top;
+	padding-top: 10px;
+	border-right: 1px solid #ccc;
+}
+#leftNav ul {
+	margin: 0;
+	padding: 0;
+}
+#leftNav ul li {
+	list-style: none;
+}
+
+#leftNav ul li a {
+	font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    color: #001689;
+}
+#leftNav ul li a:hover, #leftNav ul li a.active {
+	color: #001689;
+	border-left:4px solid #001689;
+	text-decoration: none;
+}
+#centerPage {
+	width: 79%;
+	display:table-cell;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#centerPage .style-h2 {
+	margin-top: 0;
+	margin-bottom:20px;
+	color: #001689;
+	border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+	font-size: 22px;
+	text-transform: uppercase;
+    font-weight: 600;
+}
+
+#centerPage .style-h3 {
+	color: #2f2f2f;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#centerPage ul.style-ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 10px;
+	padding:5px 0;
+	border: 1px solid #ccc;
+	text-align: center;
+	border-radius: 6px;
+}
+
+.style-button button {
+	margin-right: 20px;
+}
+.style-icon p span {
+	display: inline-block;
+	padding: 10px 20px 10px 0;
+}
+.style-color-palette {
+	padding-left: 50px;
+}
+.style-color-wrap {
+	border-radius: 6px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	margin-right:20px;
+}
+.style-color-shade {
+	width: 100px;
+	height: 100px;
+	display: block;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.style-color-name {
+	display: block;
+	text-align: center;
+	padding: 5px;
+}
+.style-link {
+	display: inline-block;
+	padding-right: 40px;
+}

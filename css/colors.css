@@ -1,0 +1,54 @@
+.colors {
+	
+}
+.primary-color {
+	background-color: #001689;
+}
+.secondary-color {
+	background-color: #0099a8;
+}
+.darkGrey-color {
+	background-color: #3a3d42;
+}
+.lightGrey-color {
+	background-color: #a0a8bd;
+}
+.primary-active-color {
+	width: 140px;
+	height: 115px;
+	background-color: #001689;
+}
+
+.primary-hover-color {
+	width: 140px;
+	height: 115px;
+	background-color: #001689;
+	opacity: 0.8;
+}
+
+.primary-disabled-color {
+	width: 140px;
+	height: 115px;
+	background-color: #001689;
+	opacity: 0.5;
+}
+
+.secondary-active-color {
+	width: 140px;
+	height: 115px;
+	background-color: #0099a8;
+}
+
+.secondary-hover-color {
+	width: 140px;
+	height: 115px;
+	background-color: #0099a8;
+	opacity: 0.8;
+}
+
+.secondary-disabled-color {
+	width: 140px;
+	height: 115px;
+	background-color: #0099a8;
+	opacity: 0.5;
+}

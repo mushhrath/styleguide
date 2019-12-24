@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,500,600,700,200">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+<header class="">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="headerWrap">
+					<img src="images/mastek-logo.png" />
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<h1 class="">STYLE GUIDE</h1>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="container main">
+	<div id="leftNav">
+		<ul>
+			<li><a href="#" data-id="typography" class="active">Typography</a></li>
+			<li><a href="#" data-id="colors" class="">Colors</a></li>
+			<li><a href="#" data-id="buttons" class="">Buttons</a></li>
+			<li><a href="#" data-id="lists" class="">Lists</a></li>
+			<li><a href="#" data-id="forms" class="">Forms</a></li>
+			<li><a href="#" data-id="tables" class="">Tables</a></li>
+			<li><a href="#" data-id="alerts" class="">Alerts</a></li>
+			<li><a href="#" data-id="icons" class="">Icons</a></li>
+			<li><a href="#" data-id="pagination" class="">Pagination</a></li>
+			<li><a href="#" data-id="modal" class="">Modal</a></li>
+			<li><a href="#" data-id="tooltip" class="">Tooltip</a></li>
+		</ul>
+	</div>
+	<div id="centerPage">
+		 
+	</div>
+</section>
+<script>
+$(document).ready(function() {
+	loadPage("typography"); 
+    $( "body" ).delegate( "#leftNav li a", "click", function(e) {
+		$("#leftNav li a").removeClass("active");
+		loadPage($(this).data("id"));
+		$(this).addClass("active");
+		
+	});
+});
+
+function loadPage(getPageId) {
+	$( "#centerPage" ).load( "pages/"+getPageId+".html" );
+}
+</script>
+</body>
+</html>
