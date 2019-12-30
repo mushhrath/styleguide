@@ -29,8 +29,33 @@
                 <div class="col-sm-6 column"><label>File input</label><input type="file"></div>
             </div>
             <div class="row">
-                <div class="col-sm-6 column"><label><input type="radio" name="rad">Radio
-                    input</label><label><input type="checkbox">Checkbox input</label></div>
+                <div class="col-sm-6 column">
+                    <label>Checkboxs & Radio Buttons</label>
+                    <div class="relative-position">
+                        <input type="checkbox" class="customCheckbox" id="checkbox1">
+                        <label class="checkbox-label" for="checkbox1">Default</label>       
+                    </div>
+                    <div class="relative-position">
+                        <input type="checkbox" checked aria-selected="true"  class="customCheckbox" id="checkbox3">
+                        <label class="checkbox-label" for="checkbox3">Selected</label>
+                    </div>
+                    <div class="relative-position">
+                        <input type="checkbox" disabled class="customCheckbox" id="checkbox4">
+                        <label class="checkbox-label input-disabled" for="checkbox4">Disabled</label>
+                    </div>
+                    <div class="relative-position">
+                        <input type="radio" class="customCheckbox" id="radioBtn1">
+                        <label class="radio-label" for="radioBtn1">Default</label>
+                    </div>
+                    <div class="relative-position">
+                        <input type="radio" aria-selected="true" checked class="customCheckbox" id="radioBtn2">
+                        <label class="radio-label" for="radioBtn2">Selected</label>
+                    </div>
+                    <div class="relative-position">
+                        <input type="radio" disabled class="customCheckbox" id="radioBtn3">
+                        <label class="radio-label input-disabled" for="radioBtn3">Disabled</label>
+                    </div>
+                </div>
                 <div class="col-sm-6 column"><label>Number input</label><input type="number" value="5" min="0" max="10"></div>
             </div>
             <div class="row">
@@ -49,6 +74,12 @@
                     <label for="inputError">Error input</label>
                     <input type="text" id="inputError" placeholder="Placeholder" class="g-wide--full form-control ">
                     <span class="help-block">Something may have gone wrong</span>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-sm-6">
+
                 </div>
             </div>
         </fieldset>

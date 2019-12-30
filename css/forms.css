@@ -319,7 +319,7 @@
     margin-left: 0.5rem;
     margin-right: 1rem;
     margin-bottom: 0;
-    vertical-align: baseline
+    vertical-align: middle;
 }
 
 #forms input[type="file"] {
@@ -434,5 +434,84 @@ select {
     font-size: 1.2rem;
 }
 .has-success input {
-    border-color: #3c763d !important;
+    border-color: #0c490d !important;
+}
+.relative-position {
+    position: relative;
+    display: inline-flex;
+}
+.customCheckbox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+.radio-label,.checkbox-label {
+    padding-left: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.radio-label::before,.radio-label::after,.checkbox-label::before,.checkbox-label::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+.radio-label::before,.checkbox-label::before {
+    left: 0;
+    border: 1px solid #e6e6e6;
+    box-shadow: inset 1px 1px rgba(0,0,0,.03)
+}
+
+/*.radio-label::after,.checkbox-label::after {
+    left: 3px;
+    background: url(../images/icon-check.svg) no-repeat 50%;
+    display: none
+} */
+
+.radio-label::before {
+    border-radius: 50%
+}
+
+.checkbox-label::before {
+    border-radius: 3px
+}
+
+input[type=radio]:checked+label::before,input[type=checkbox]:checked+label::before {
+    background-color: #001689;
+    border: none;
+    box-shadow: none
+}
+
+input[type=radio]:checked+label::after,input[type=checkbox]:checked+label::after {
+    display: block
+}
+.input-disabled::before{
+    background-color: lightgray;
+}
+.column {
+    margin-top: 10px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
 }
