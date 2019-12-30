@@ -475,11 +475,11 @@ select {
     box-shadow: inset 1px 1px rgba(0,0,0,.03)
 }
 
-/*.radio-label::after,.checkbox-label::after {
-    left: 3px;
+.radio-label::after,.checkbox-label::after {
+    left: 0px;
     background: url(../images/icon-check.svg) no-repeat 50%;
     display: none
-} */
+} 
 
 .radio-label::before {
     border-radius: 50%
